@@ -13,7 +13,7 @@ def main():
     for test in tests['tests']:
         fill_values(test, values_dict)
 
-    with open('task3/result.json', 'w') as f:
+    with open('task3/report.json', 'w') as f:
         json.dump(tests, f, indent=2)
 
 def fill_values(test, values_dict):
